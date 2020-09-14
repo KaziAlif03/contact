@@ -80,13 +80,15 @@ h1{
 	width: 400px;
 	margin-left: 770px;
 	color: white;
-	/*background-color: rgba(255,0,135,0.65);*/
 	background:linear-gradient(45deg,#FF7000,#FF4600,#FF0000);
 	list-style-type: none;
 	text-align: center;
 	padding: 10px;
+	margin-top: 20px;
 	border-radius: 20px;
+	border-color: none;
 }
+
 .name{
 	border-radius: 20px;
 	text-align: center;
@@ -95,6 +97,12 @@ h1{
 	background color: black;
 	color: #FF0064 ;
 	border-radius: 50px;
+	transition: 0.5s;
+}
+.rtr input:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+	
 }
 .from_box input{
 	width: 280px;

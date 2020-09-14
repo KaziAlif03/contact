@@ -1,0 +1,103 @@
+body{
+	background: linear-gradient(90deg,#02FFEC,#00FF32 ,#02E0FF );
+    height: 100vh;
+}
+.menubar{
+	font-size: 50px;
+	text-align: center;
+
+}
+a{
+	text-decoration: none;
+}
+.menubar ul li{
+list-style-type: none;
+display: inline-block;
+}
+.menubar ul li a{
+	color: black;
+	margin-left: 30px;
+}
+.menubar ul li a:hover{
+	color: white;
+	transform: (1.4);
+}
+.font {
+	font-size: 50px;
+	list-style-type: none;
+	text-align: center;
+	color: white;
+
+}
+.font ul li{
+	list-style:  none;
+}
+.font ul li a i{
+	height: 80px;
+	width: 80px;
+	color: white;
+	border-radius: 25px;
+	line-height: 80px;
+	transition: 0.5s;
+	margin-left: 40px;
+	background: linear-gradient(45deg,#01A4FB,#12C9FF);
+
+}
+
+.font ul li a i:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+.subscribe{
+	width: 400px;
+	margin: 20px auto ;
+	border-radius: 15px;
+	background-color: rgba(255,0,100,0.9);
+	text-align: center;
+	margin-left: 760px;
+	padding: 20px;
+}
+input{
+	padding: 12px;
+}
+input:focus{
+	outline: none;
+}
+h1{
+	margin-bottom:16px;
+}
+.submit{
+	background-color: red;
+	color: white;
+	transition: 0.5s;
+}
+.submit:hover{
+	background-color: green;
+	transition: 0.5s;
+}
+.from_box{
+
+	width: 400px;
+	margin-left: 770px;
+	color: white;
+	/*background-color: rgba(255,0,135,0.65);*/
+	background:linear-gradient(45deg,#FF7000,#FF4600,#FF0000);
+	list-style-type: none;
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px;
+}
+.name{
+	border-radius: 20px;
+	text-align: center;
+}
+.rtr input{
+	background color: black;
+	color: #FF0064 ;
+	border-radius: 50px;
+}
+.from_box input{
+	width: 280px;
+	border-radius: 20px;
+}
+

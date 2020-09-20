@@ -1,111 +1,150 @@
-body{
-	background: linear-gradient(90deg,#02FFEC,#00FF32 ,#02E0FF );
-    height: 100vh;
+/*google font link-up*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+	margin: 0;
+	padding: 0;
 }
-.menubar{
-	font-size: 50px;
-	text-align: center;
-
+body,h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Playfair Display', serif;
 }
-a{
+/*header section css*/
+.container{
+	margin:0 auto;
+	width: 1140px;
+}
+.header{
+	width: 100%;
+}
+.navbar{
+	width: 100%;
+	float: left;
+	padding: 25px 4px;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+a,a:hover{
 	text-decoration: none;
 }
-.menubar ul li{
-list-style-type: none;
-display: inline-block;
+.menu{
+	width: 80%;
+	float: right;
+	text-align: right;
 }
-.menubar ul li a{
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 52px;
+}
+.menu ul li a{
+	text-transform: uppercase;
+	color: grey;
+}
+.menu ul li a:hover{
 	color: black;
-	margin-left: 30px;
 }
-.menubar ul li a:hover{
-	color: white;
-	transform: (1.4);
+/* banner section css */
+.banner{
+	width: 100%;
+	display: flow-root;
 }
-.font {
-	font-size: 50px;
-	list-style-type: none;
+.post-content{
+	padding: 60px;
+}
+.category{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.title{
+    color: #626262;
+    margin: 17px 0px;
+}
+.desc{
+	color: #626262;
+    margin-bottom: 32px;
+}
+.comment{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+
+/*post gallery css*/
+.posts{
+	width: 100%;
+	display: 
+}
+.gallery{
+	padding: 60px;
+}
+.post{
+	width: 100%;
+	float: left;
+}
+.left{
+	width: 48%;
+	float: left;
+	text-decoration: inline-block;
+}
+.right{
+	width: 48%;
+	float: right;
+}
+.category{
+	padding: 15px 0px;
+}
+/*subscription form css   */
+.subscription{
+	width: 100%;
+	display: flow-root;
+	background-color: #f0f0f0;
 	text-align: center;
-	color: white;
-
+	padding: 60px 0px;
 }
-.font ul li{
-	list-style:  none;
+.subscription h1{
+	color: black;
+	margin-bottom: 40px;
 }
-.font ul li a i{
-	height: 80px;
-	width: 80px;
-	color: white;
-	border-radius: 25px;
-	line-height: 80px;
-	transition: 0.5s;
-	margin-left: 40px;
-	background: linear-gradient(45deg,#01A4FB,#12C9FF);
-
+form input{
+	padding: 15px 20px;
+	width: 380px;
+	border: none;
+	background:transparent;
+	border-bottom: 1px solid black;
 }
-
-.font ul li a i:hover{
-	transform: scale(1.2);
-	transition: 0.5s;
+form{
+	position: relative;
 }
-.subscribe{
-	width: 400px;
-	margin: 20px auto ;
-	border-radius: 15px;
-	background-color: rgba(255,0,100,0.9);
+form i{
+	position: absolute;
+	    top: 15px;
+    right: 375px;
+    color: black;
+}
+.load-more{
 	text-align: center;
-	margin-left: 760px;
-	padding: 20px;
 }
-input{
+.load-more button{
 	padding: 12px;
+    margin: 72px 0px;
 }
-input:focus{
-	outline: none;
+.t-c{
+	width: 100%;
+	display: flow-root;
+	background-color: #f0f0f0;
+	    padding: 50px 0px;
 }
-h1{
-	margin-bottom:16px;
+.left1{
+	float: left;
+	width: 40%;
+	color: black;
+	display: inline-block;
 }
-.submit{
-	background-color: red;
-	color: white;
-	transition: 0.5s;
+.right1{
+	float:right;
+	width: 30%;
+	color: black;
 }
-.submit:hover{
-	background-color: green;
-	transition: 0.5s;
+.right1 i{
+	color: black;
 }
-.from_box{
-
-	width: 400px;
-	margin-left: 770px;
-	color: white;
-	background:linear-gradient(45deg,#FF7000,#FF4600,#FF0000);
-	list-style-type: none;
-	text-align: center;
-	padding: 10px;
-	margin-top: 20px;
-	border-radius: 20px;
-	border-color: none;
-}
-
-.name{
-	border-radius: 20px;
-	text-align: center;
-}
-.rtr input{
-	background color: black;
-	color: #FF0064 ;
-	border-radius: 50px;
-	transition: 0.5s;
-}
-.rtr input:hover{
-	transform: scale(1.1);
-	transition: 0.5s;
-	
-}
-.from_box input{
-	width: 280px;
-	border-radius: 20px;
-}
-
